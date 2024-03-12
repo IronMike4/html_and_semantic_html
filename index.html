@@ -24,7 +24,6 @@ For more information about the CV, visit https://github.com/IronMike4/html_and_s
                 <li><a href="#education">Education</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="#get-in-touch">Get in touch</a></li>
             </ul>
         </nav>
     </header>
@@ -58,7 +57,7 @@ For more information about the CV, visit https://github.com/IronMike4/html_and_s
         <hr>
         <section id="skills">
             <h2>Skills</h2>
-            <ul>
+            <ol>
                 <li>C#</li>
                 <li>Java</li>
                 <li>Python</li>
@@ -68,7 +67,7 @@ For more information about the CV, visit https://github.com/IronMike4/html_and_s
                 <li>Appium</li>
                 <li>REST API</li>
                 <li>Jenkins</li>
-            </ul>
+            </ol>
 
             <h3>Soft Skills</h3>
             <ol>
@@ -186,32 +185,27 @@ For more information about the CV, visit https://github.com/IronMike4/html_and_s
                 </li>
             </ul>
         </section>
-        <hr>
         <section id="contact">
             <h2>Contact</h2>
+            <p>Name: Michael Mahachi</p>
             <p>
                 Email: <a href="mailto:exampack1@gmail.com">exampack1@gmail.com</a>
             </p>
 
-            <p>
-                Phone: <a href="tel:0784666805">0784666805</a>
-            </p>
+            <p>Phone: <a href="tel:0784666805">0784666805</a></p>
 
             <p>
-                Social Media: <a href="https://www.linkedin.com/in/michael-mahachi-a9978415a" target="_blank">LinkedIn
-                    Profile</a>
+                Professional Social Media:
+                <a href="https://www.linkedin.com/in/michael-mahachi-a9978415a" target="_blank">LinkedIn Profile</a>
             </p>
             <p>
-                GitHub Page: <a href="https://github.com/IronMike4" target="_blank">GitHub</a>
+                GitHub Page:
+                <a href="https://github.com/IronMike4" target="_blank">GitHub</a>
             </p>
-        </section>
-        <hr>
-        <section id="get-in-touch">
-            <h2>Get in Touch</h2>
-
+            <br>
             <form action="https://httpbin.org/get" method="get">
                 <fieldset>
-                    <legend>Get in touch</legend>
+                    <legend>Send A Message</legend>
                     <p>
                         <label for="firstName">First Name:</label>
                         <input type="text" name="firstName" id="firstName" placeholder="Michael" autocomplete="on"
@@ -235,7 +229,7 @@ For more information about the CV, visit https://github.com/IronMike4/html_and_s
                         <label for="message">Message:</label>
                         <textarea name="message" id="message" placeholder="Type your message here"></textarea>
                     </p>
-                    <button type="submit">Submit</button>
+                    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Submit</button>
                     <button type="reset">Reset</button>
                 </fieldset>
             </form>
